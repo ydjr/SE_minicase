@@ -32,9 +32,9 @@ public class Invoice {
         System.out.println("Date: " + date);
         customerInfo.displayCustomerInfo();
         purchasedInfo.displayVehicleInfo();
-        System.out.println("Trade-in Allowance: $" + tradeInAllowance);
-        System.out.println("Taxes: $" + taxes);
-        System.out.println("License Fees: $" + licenseFees);
-        System.out.println("Final Negotiated Price: $" + sumFinalNegotiatedPrice());
+        System.out.println("Trade-in Allowance: " + tradeInAllowance);
+        System.out.println("Taxes: " + taxes);
+        System.out.println("License Fees: " + licenseFees);
+        System.out.println("Final Negotiated Price: " + sumFinalNegotiatedPrice());
     }
 }

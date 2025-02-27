@@ -12,6 +12,6 @@ public class DealerInstalledOption {
     public void displayOption() {
         System.out.println("Option Code: " + optionCode);
         System.out.println("Description: " + description);
-        System.out.println("Price: $" + price);
+        System.out.println("Price: " + price);
     }
 }
